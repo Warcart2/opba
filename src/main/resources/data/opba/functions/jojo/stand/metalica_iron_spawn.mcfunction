@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot opba:jojo/stand/metalica_iron

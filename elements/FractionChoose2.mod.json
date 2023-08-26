@@ -1,0 +1,194 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 234,
+    "height": 221,
+    "inventoryOffsetX": 16,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_become_pirate",
+          "text": "Become pirate",
+          "onClick": {
+            "name": "BecomePirate"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 177,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "one-piece-jolly-roger.png",
+          "use1Xscale": true,
+          "x": 195,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<",
+          "onClick": {
+            "name": "OpenFractionChooseOnKeyPressed"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 60,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_become_the_pirate_king",
+          "text": {
+            "fixedValue": "Become the Pirate King"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_conquer_the_world",
+          "text": {
+            "fixedValue": "Conquer the world"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 145
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fight_the_marine",
+          "text": {
+            "fixedValue": "Fight the Marine"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rob_the_village",
+          "text": {
+            "fixedValue": "Rob the Village"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_get_recognized_and_become_a_yonk",
+          "text": {
+            "fixedValue": "Get Recognized and Become a Yonko"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_join_a_team_or_create_your_own",
+          "text": {
+            "fixedValue": "Join a team or create your own"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 104,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_can_always_change_your_mind",
+          "text": {
+            "fixedValue": "You can always change your mind and get"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 103,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_support",
+          "text": {
+            "fixedValue": "support"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 103,
+          "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_of_marine",
+          "text": {
+            "fixedValue": "of Marine"
+          },
+          "color": {
+            "value": -16737895,
+            "falpha": 0.0
+          },
+          "x": 103,
+          "y": 126
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

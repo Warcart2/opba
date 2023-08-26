@@ -1,0 +1,254 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 234,
+    "height": 221,
+    "inventoryOffsetX": 16,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "one_piece_marines_flag.png",
+          "use1Xscale": true,
+          "x": 186,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_become_marine",
+          "text": "Become marine",
+          "onClick": {
+            "name": "BecomeMarine"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 168,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_become_a_champion_of_justice_a",
+          "text": {
+            "fixedValue": "Become a champion of justice, a shield"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_civilians_prospering_in_this_wor",
+          "text": {
+            "fixedValue": "civilians prospering in this world."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_will_get_the_recognition_of",
+          "text": {
+            "fixedValue": "You will get the recognition of the people"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_just_as_important",
+          "text": {
+            "fixedValue": "and, just as important,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_will_get_the_recognition_of1",
+          "text": {
+            "fixedValue": "you will get the recognition of your soul."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fleet_of_justice_wont_leave_you",
+          "text": {
+            "fixedValue": "Fleet of justice won't leave you in"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trouble_which_is_no_less_import",
+          "text": {
+            "fixedValue": "trouble, which is no less important,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_become_part_of_a_mighty_army",
+          "text": {
+            "fixedValue": "and become part of a mighty army that"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_brings_peace_to_the_world",
+          "text": {
+            "fixedValue": " brings peace to the world."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_efforts_and_strength_will_n",
+          "text": {
+            "fixedValue": "Your efforts and strength will not be"
+          },
+          "color": {
+            "value": -13004609,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_forgotten_in_the_marine",
+          "text": {
+            "fixedValue": "forgotten in the Marine."
+          },
+          "color": {
+            "value": -13004609,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "onClick": {
+            "name": "PirateGui"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 339,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_yourself_can_get_his_recogni",
+          "text": {
+            "fixedValue": "you yourself can get his recognition"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

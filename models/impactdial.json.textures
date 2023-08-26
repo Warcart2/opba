@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "impactdial"
+      },
+      "name": "default"
+    },
+    "reject_dial": {
+      "map": {
+        "0": "rejectdial"
+      },
+      "name": "reject_dial"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Fly Button",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "FlybuttonOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "FlybuttonOnKeyReleased"
+    }
+  }
+}

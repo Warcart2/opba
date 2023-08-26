@@ -1,0 +1,84 @@
+{
+  "_fv": 43,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cooldown_varintegercooldown",
+          "text": {
+            "fixedValue": "Cooldown: <VAR:integer:cooldown>"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stamina_varintegerstamina",
+          "text": {
+            "fixedValue": "Stamina: <VAR:integer:Stamina>/<VAR:integer:StaminaMax>"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "x": 303,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level_varintegerlvl_var",
+          "text": {
+            "fixedValue": "Level: <VAR:integer:Lvl> : <VAR:integer:Xp>"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_varcyborgfueltype_varinteg",
+          "text": {
+            "fixedValue": "<VAR:CyborgFuelType> :<VAR:integer:CyborgFuel>"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FuelView"
+          },
+          "x": 303,
+          "y": 26
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "CombatOPBAModeDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

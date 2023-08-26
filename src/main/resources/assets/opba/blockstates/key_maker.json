@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "opba:block/key_maker"
+    },
+    "facing=east": {
+      "model": "opba:block/key_maker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opba:block/key_maker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opba:block/key_maker",
+      "y": 270
+    }
+  }
+}

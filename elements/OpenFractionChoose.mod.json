@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "O",
+    "keyBindingName": "Open Fraction Choose",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "OpenFractionChooseOnKeyPressed"
+    }
+  }
+}

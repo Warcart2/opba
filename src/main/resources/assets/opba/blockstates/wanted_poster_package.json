@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "opba:block/wanted_poster_package"
+    },
+    "face=floor,facing=east": {
+      "model": "opba:block/wanted_poster_package",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "opba:block/wanted_poster_package",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "opba:block/wanted_poster_package",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "opba:block/wanted_poster_package",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

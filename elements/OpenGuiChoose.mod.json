@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Y",
+    "keyBindingName": "Open Gui Of Choosing Abilities",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "OpenGuiChooseOnKeyPressed"
+    }
+  }
+}

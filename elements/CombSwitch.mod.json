@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "RSHIFT",
+    "keyBindingName": "Combat Mode Switch",
+    "keyBindingCategoryKey": "opbacombat",
+    "onKeyPressed": {
+      "name": "CombSwitchOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "function",
+  "definition": {
+    "code": "loot spawn ~ ~ ~ loot opba:jojo/stand/metalica_iron",
+    "name": "jojo/stand/metalica_iron_spawn",
+    "namespace": "mod"
+  }
+}

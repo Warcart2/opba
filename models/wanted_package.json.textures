@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wanted_poster",
+        "1": "wanted_package"
+      },
+      "name": "default"
+    }
+  }
+}

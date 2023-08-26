@@ -1,0 +1,49 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "rr",
+    "customModelName": "Normal",
+    "name": "Test",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "useCondition": {
+      "name": "Never"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RaigoW"
+    },
+    "bulletModel": "Modelmarine",
+    "customBulletModelTexture": "raigo.png",
+    "onBulletHitsBlock": {
+      "name": "TestProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RaigoWProjectileHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "RaigoWhileProjectileFlyingTick"
+    }
+  }
+}

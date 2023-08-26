@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Metalized Potion",
+    "splashName": "Splash Potion of Metalized Potion",
+    "lingeringName": "Lingering Potion of Metalized Potion",
+    "arrowName": "Arrow of Metalized Potion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Metalized"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

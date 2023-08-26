@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "rr",
+    "customModelName": "Normal",
+    "name": "Fresh Fire",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "drink",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "useCondition": {
+      "name": "Never"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:FreshFireW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "FreshFireWProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "FreshFireWWhileProjectileFlyingTick"
+    }
+  }
+}

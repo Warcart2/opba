@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "function",
+  "definition": {
+    "code": "team add marine \"Marine\"\nteam modify marine friendlyFire false\nteam modify marine color dark_aqua\nteam modify marine seeFriendlyInvisibles false",
+    "name": "one_piece/marine_world_work",
+    "namespace": "mod"
+  }
+}

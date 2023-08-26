@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "2nd Attack",
+    "keyBindingCategoryKey": "opbacombat",
+    "onKeyPressed": {
+      "name": "XAttackOnKeyPressed"
+    }
+  }
+}

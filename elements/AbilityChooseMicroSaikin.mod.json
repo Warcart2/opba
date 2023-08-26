@@ -1,0 +1,130 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_slot_varintegerslotchoose",
+          "text": {
+            "fixedValue": "Slot: <VAR:integer:SlotChoose>"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_slot",
+          "text": "Next slot",
+          "onClick": {
+            "name": "SlotChoosing"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toxic_bacteria",
+          "text": "Toxic Bacteria",
+          "onClick": {
+            "name": "ToxicBacteriaEquip"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gear_second",
+          "text": "Gear Second",
+          "onClick": {
+            "name": "SaikinSecondGearEquip"
+          },
+          "width": 63,
+          "height": 20,
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_bacterial_point",
+          "text": "Bacterial point",
+          "onClick": {
+            "name": "BacterialPoint"
+          },
+          "displayCondition": {
+            "name": "BacterialPointOff"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_semipoint",
+          "text": "Semipoint",
+          "onClick": {
+            "name": "Semipoint"
+          },
+          "displayCondition": {
+            "name": "SemipointOff"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_basic_point",
+          "text": "Basic point",
+          "onClick": {
+            "name": "BasicPoint"
+          },
+          "displayCondition": {
+            "name": "BasicPointOff"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 168,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

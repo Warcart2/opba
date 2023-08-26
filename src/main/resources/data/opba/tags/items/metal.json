@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_leggings",
+    "minecraft:shears",
+    "minecraft:blast_furnace",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_hoe",
+    "minecraft:iron_boots",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_helmet",
+    "minecraft:chainmail_leggings",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_shovel",
+    "minecraft:flint_and_steel",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_helmet",
+    "minecraft:iron_axe",
+    "minecraft:iron_sword",
+    "#forge:ingots/iron",
+    "#forge:nuggets/iron",
+    "#forge:storage_blocks/iron"
+  ]
+}

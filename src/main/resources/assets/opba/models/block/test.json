@@ -1,0 +1,8 @@
+{
+  "parent": "opba:custom/rejectdial",
+  "textures": {
+    "all": "opba:blocks/b",
+    "particle": "opba:blocks/b",
+    "0": "opba:blocks/rejectdial"
+  }
+}

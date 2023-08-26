@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "goro_invunerability.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.5,
+    "height": 0.5,
+    "scale": 0.5,
+    "speedFactor": 1.0,
+    "gravity": -0.1,
+    "maxAge": 12,
+    "maxAgeDiff": 3,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

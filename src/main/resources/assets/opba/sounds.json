@@ -1,0 +1,11 @@
+{
+  "dial": {
+    "subtitle": "subtitles.dial",
+    "sounds": [
+      {
+        "name": "opba:dial",
+        "stream": false
+      }
+    ]
+  }
+}

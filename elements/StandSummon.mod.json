@@ -1,0 +1,15 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "L",
+    "keyBindingName": "Stand Summon",
+    "keyBindingCategoryKey": "opbacombat",
+    "onKeyPressed": {
+      "name": "StandSummonOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "StandSummonOnKeyReleased"
+    }
+  }
+}

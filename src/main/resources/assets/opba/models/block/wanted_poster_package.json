@@ -1,0 +1,9 @@
+{
+  "parent": "opba:custom/wanted_package",
+  "textures": {
+    "all": "opba:blocks/wanted_poster",
+    "particle": "opba:blocks/wanted_poster",
+    "0": "opba:blocks/wanted_poster",
+    "1": "opba:blocks/wanted_package"
+  }
+}

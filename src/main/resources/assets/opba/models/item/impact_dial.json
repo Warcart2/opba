@@ -1,0 +1,7 @@
+{
+  "parent": "opba:custom/impactdial",
+  "textures": {
+    "0": "opba:blocks/impactdial",
+    "particle": "opba:items/rr"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "opba:blocks/trash",
+    "up": "opba:blocks/trash",
+    "north": "opba:blocks/trash",
+    "east": "opba:blocks/trash",
+    "south": "opba:blocks/trash",
+    "west": "opba:blocks/trash",
+    "particle": "opba:blocks/trash"
+  }
+}

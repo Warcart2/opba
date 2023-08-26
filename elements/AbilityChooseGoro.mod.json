@@ -1,0 +1,130 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_slot_varintegerslotchoose",
+          "text": {
+            "fixedValue": "Slot: <VAR:integer:SlotChoose>"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_el_thor",
+          "text": "El Thor",
+          "onClick": {
+            "name": "ElThorEquping"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_raigo",
+          "text": "Raigo",
+          "onClick": {
+            "name": "RaigoEquiping"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_100_milion_volt",
+          "text": "100 Milion Volt",
+          "onClick": {
+            "name": "VoltageSet100m"
+          },
+          "displayCondition": {
+            "name": "ActiveVoltage100"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_200_milion_volt",
+          "text": "200 milion volt",
+          "onClick": {
+            "name": "VoltageSet200m"
+          },
+          "displayCondition": {
+            "name": "ActiveVoltage200"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_devoltage",
+          "text": "Devoltage",
+          "onClick": {
+            "name": "Devoltage"
+          },
+          "displayCondition": {
+            "name": "ActiveAny"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_slot",
+          "text": "Next Slot",
+          "onClick": {
+            "name": "SlotChoosing"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
