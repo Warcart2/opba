@@ -1079,6 +1079,9 @@
       "locked_code": false,
       "registry_name": "stand_arrow_rightclicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opba/procedures/StandArrowRightclickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1087,6 +1090,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4442,27 +4449,25 @@
       "path": "~/JoJo/Stands"
     },
     {
-      "name": "P",
+      "name": "ViewStand",
       "type": "procedure",
       "sortid": 225,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "p",
+      "registry_name": "view_stand",
       "metadata": {
+        "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/opba/procedures/PProcedure.java"
+          "src/main/java/net/mcreator/opba/procedures/ViewStandProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/JoJo/Stands"
     }
   ],
   "variable_elements": [
