@@ -1,2 +1,0 @@
-((entity.getCapability(OpbaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new OpbaModVariables.PlayerVariables())).ClearSlotLoc)
