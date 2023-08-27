@@ -4384,6 +4384,9 @@
       "registry_name": "marine_attack",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/opba/procedures/MarineAttackProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -4860,6 +4863,7 @@
       "item.opba.kiko_kiko_no_mi": "Kiko Kiko No Mi",
       "itemGroup.tabjo_jo": "Jojo",
       "gui.opba.fraction_choose_2.button_empty": "\u003c",
+      "item.opba.iiiiiiii_itemitem": "IIIIIIII Itemitem",
       "gui.opba.ability_choose_metalica.button_change_slot": "Change Slot",
       "gui.opba.fraction_choose.label_fleet_of_justice_wont_leave_you": "Fleet of justice won\u0027t leave you in",
       "effect.blocked": "Ability Block",
