@@ -4482,6 +4482,51 @@
           "src/main/java/net/mcreator/opba/item/ItWorksItem.java"
         ]
       }
+    },
+    {
+      "name": "IIIIIIIIItemitemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iiiiiiii_itemitem_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opba/procedures/IIIIIIIIItemitemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IIIIIIIIItemitem",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iiiiiiii_itemitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opba/item/IIIIIIIIItemitemItem.java",
+          "src/main/resources/assets/opba/models/item/iiiiiiii_itemitem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4764,7 +4809,6 @@
       "gamerule.permanentShichibukai": "Permanent Shichibukai",
       "item.opba.kairoseki": "Kairoseki",
       "entity.opba.stand_test": "Stand Test",
-      "item.opba.it_works": "It Works",
       "item.opba.punkgibson": "Punk gibson",
       "key.categories.opbacombat": "OPBA Attacks",
       "block.opba.key_maker": "Key Maker",
@@ -4966,6 +5010,7 @@
       "item.opba.kiko_kiko_no_mi": "Kiko Kiko No Mi",
       "itemGroup.tabjo_jo": "Jojo",
       "gui.opba.fraction_choose_2.button_empty": "\u003c",
+      "item.opba.iiiiiiii_itemitem": "IIIIIIII Itemitem",
       "gui.opba.ability_choose_metalica.button_change_slot": "Change Slot",
       "gui.opba.fraction_choose.label_fleet_of_justice_wont_leave_you": "Fleet of justice won\u0027t leave you in",
       "effect.blocked": "Ability Block",
@@ -5002,6 +5047,19 @@
     "name": "~",
     "children": [
       {
+        "name": "Mics",
+        "children": [
+          {
+            "name": "Remove",
+            "children": []
+          },
+          {
+            "name": "AttackKeys",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "JoJo",
         "children": [
           {
@@ -5016,26 +5074,43 @@
         ]
       },
       {
-        "name": "Mics",
+        "name": "One Piece",
         "children": [
           {
-            "name": "Remove",
+            "name": "Fractions",
+            "children": [
+              {
+                "name": "Marine",
+                "children": []
+              },
+              {
+                "name": "Pirate",
+                "children": [
+                  {
+                    "name": "Bounty",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cyborg",
             "children": []
           },
           {
-            "name": "AttackKeys",
+            "name": "Dials",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "One Piece",
-        "children": [
+          },
           {
             "name": "Fruits",
             "children": [
               {
                 "name": "Jiki",
+                "children": []
+              },
+              {
+                "name": "Suke",
                 "children": []
               },
               {
@@ -5047,10 +5122,6 @@
                 "children": []
               },
               {
-                "name": "Suke",
-                "children": []
-              },
-              {
                 "name": "Kiko",
                 "children": []
               },
@@ -5059,32 +5130,6 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Fractions",
-            "children": [
-              {
-                "name": "Pirate",
-                "children": [
-                  {
-                    "name": "Bounty",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Marine",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Cyborg",
-            "children": []
-          },
-          {
-            "name": "Dials",
-            "children": []
           }
         ]
       }
