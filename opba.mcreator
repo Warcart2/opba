@@ -4468,6 +4468,51 @@
         ]
       },
       "path": "~/JoJo/Stands"
+    },
+    {
+      "name": "IIIIIIIIItemitemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iiiiiiii_itemitem_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opba/procedures/IIIIIIIIItemitemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IIIIIIIIItemitem",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iiiiiiii_itemitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opba/item/IIIIIIIIItemitemItem.java",
+          "src/main/resources/assets/opba/models/item/iiiiiiii_itemitem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4712,15 +4757,15 @@
   ],
   "language_map": {
     "ru_ru": {
-      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "gui.opba.fraction_choose_2.label_support": "support",
+      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.raigo_w": "Test",
       "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
+      "item.opba.raigo_w": "Test",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",
@@ -4815,6 +4860,7 @@
       "item.opba.kiko_kiko_no_mi": "Kiko Kiko No Mi",
       "itemGroup.tabjo_jo": "Jojo",
       "gui.opba.fraction_choose_2.button_empty": "\u003c",
+      "item.opba.iiiiiiii_itemitem": "IIIIIIII Itemitem",
       "gui.opba.ability_choose_metalica.button_change_slot": "Change Slot",
       "gui.opba.fraction_choose.label_fleet_of_justice_wont_leave_you": "Fleet of justice won\u0027t leave you in",
       "effect.blocked": "Ability Block",
@@ -4847,15 +4893,15 @@
       "gui.opba.fraction_choose.label_your_efforts_and_strength_will_n": "Your efforts and strength will not be"
     },
     "en_us": {
-      "gui.opba.fraction_choose_2.label_support": "support",
       "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
+      "gui.opba.fraction_choose_2.label_support": "support",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.raigo_w": "Test",
+      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",
@@ -4950,6 +4996,7 @@
       "item.opba.kiko_kiko_no_mi": "Kiko Kiko No Mi",
       "itemGroup.tabjo_jo": "Jojo",
       "gui.opba.fraction_choose_2.button_empty": "\u003c",
+      "item.opba.iiiiiiii_itemitem": "IIIIIIII Itemitem",
       "gui.opba.ability_choose_metalica.button_change_slot": "Change Slot",
       "gui.opba.fraction_choose.label_fleet_of_justice_wont_leave_you": "Fleet of justice won\u0027t leave you in",
       "effect.blocked": "Ability Block",

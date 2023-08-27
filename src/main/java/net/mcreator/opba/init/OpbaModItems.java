@@ -29,6 +29,7 @@ import net.mcreator.opba.item.KeyItem;
 import net.mcreator.opba.item.KairosekiItem;
 import net.mcreator.opba.item.JikiJikiNoMiItem;
 import net.mcreator.opba.item.ImpactDialItem;
+import net.mcreator.opba.item.IIIIIIIIItemitemItem;
 import net.mcreator.opba.item.GoroGoroNoMiItem;
 import net.mcreator.opba.item.FreshFireWItem;
 import net.mcreator.opba.item.ElThorWItem;
@@ -59,6 +60,7 @@ public class OpbaModItems {
 	public static final RegistryObject<Item> TRASH = block(OpbaModBlocks.TRASH, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> PUNKGIBSON = REGISTRY.register("punkgibson", () -> new PunkgibsonItem());
 	public static final RegistryObject<Item> KIKO_KIKO_NO_MI = REGISTRY.register("kiko_kiko_no_mi", () -> new KikoKikoNoMiItem());
+	public static final RegistryObject<Item> IIIIIIII_ITEMITEM = REGISTRY.register("iiiiiiii_itemitem", () -> new IIIIIIIIItemitemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
