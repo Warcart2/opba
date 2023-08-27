@@ -7,7 +7,6 @@ import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
@@ -38,25 +37,17 @@ public class RenderStuffProcedure {
 		if (entity == null)
 			return;
 		RenderLivingEvent _evt = (RenderLivingEvent) event;
-		Minecraft mc = Minecraft.getInstance();
-		EntityRenderDispatcher dis = Minecraft.getInstance().getEntityRenderDispatcher();
-		EntityRendererProvider.Context context = new EntityRendererProvider.Context(dis, mc.getItemRenderer(), mc.getResourceManager(), mc.getEntityModels(), mc.font);
 		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(MobEffects.INVISIBILITY) : false) {
 			if (entity instanceof ServerPlayer || entity instanceof Player) {
 				if (_evt.getRenderer() instanceof PlayerRenderer) {
 					if (_evt instanceof RenderLivingEvent.Pre) {
 						_evt.setCanceled(true);
 					}
+					Minecraft mc = Minecraft.getInstance();
+					EntityRenderDispatcher dis = Minecraft.getInstance().getEntityRenderDispatcher();
+					EntityRendererProvider.Context context = new EntityRendererProvider.Context(dis, mc.getItemRenderer(), mc.getResourceManager(), mc.getEntityModels(), mc.font);
 					new com.kleiders.kleidersplayerrenderer.KleidersPlayerRenderer(context, new ResourceLocation("opba:textures/entities/invis_need.png"), new Modelmarine(context.bakeLayer(Modelmarine.LAYER_LOCATION)))
 							.render((AbstractClientPlayer) _evt.getEntity(), _evt.getEntity().getYRot(), _evt.getPartialTick(), _evt.getPoseStack(), _evt.getMultiBufferSource(), _evt.getPackedLight());
-				}
-			} else {
-				if (!(_evt.getRenderer() instanceof com.kleiders.kleidersplayerrenderer.KleidersEntityRenderer)) {
-					if (_evt instanceof RenderLivingEvent.Pre) {
-						_evt.setCanceled(true);
-					}
-					new com.kleiders.kleidersplayerrenderer.KleidersEntityRenderer(context, new ResourceLocation("opba:textures/entities/invis_need.png"), new Modelmarine(context.bakeLayer(Modelmarine.LAYER_LOCATION))).render((Mob) _evt.getEntity(),
-							_evt.getEntity().getYRot(), _evt.getPartialTick(), _evt.getPoseStack(), _evt.getMultiBufferSource(), _evt.getPackedLight());
 				}
 			}
 		}
