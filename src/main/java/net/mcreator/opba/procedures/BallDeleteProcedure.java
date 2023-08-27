@@ -26,8 +26,7 @@ public class BallDeleteProcedure {
 				SubX = x + 0.5 + Math.cos(((Math.PI * 2) / (particleAmount - particleAmount * Math.pow(yLoop, 2))) * loop) * SphereRadius * (1 - Math.pow(yLoop, 2));
 				SubY = y + 0.5 + yLoop * SphereRadius;
 				SubZ = z + 0.5 + Math.sin(((Math.PI * 2) / (particleAmount - particleAmount * Math.pow(yLoop, 2))) * loop) * SphereRadius * (1 - Math.pow(yLoop, 2));
-				if (SubY > 0 && SubY < 256 && !(world.getBlockState(new BlockPos(SubX, SubY, SubZ)).getDestroySpeed(world, new BlockPos(SubX, SubY, SubZ)) < 0
-						|| (world.getBlockState(new BlockPos(SubX, SubY, SubZ))).getMaterial() == net.minecraft.world.level.material.Material.STONE)) {
+				if (SubY > -63 && SubY < 312 && !(world.getBlockState(new BlockPos(SubX, SubY, SubZ)).getDestroySpeed(world, new BlockPos(SubX, SubY, SubZ)) < 0)) {
 					world.setBlock(new BlockPos(SubX, SubY, SubZ), block, 3);
 				}
 				loop = loop + 1;
