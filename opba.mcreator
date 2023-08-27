@@ -271,8 +271,8 @@
       "registry_name": "goro_goro_no_mi",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/goro_goro_no_mi.json",
-          "src/main/java/net/mcreator/opba/item/GoroGoroNoMiItem.java"
+          "src/main/java/net/mcreator/opba/item/GoroGoroNoMiItem.java",
+          "src/main/resources/assets/opba/models/item/goro_goro_no_mi.json"
         ]
       },
       "path": "~/One Piece/Fruits/Goro"
@@ -286,9 +286,9 @@
       "registry_name": "el_thor_w",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/item/ElThorWItem.java",
+          "src/main/java/net/mcreator/opba/entity/ElThorWEntity.java",
           "src/main/resources/assets/opba/models/item/el_thor_w.json",
-          "src/main/java/net/mcreator/opba/entity/ElThorWEntity.java"
+          "src/main/java/net/mcreator/opba/item/ElThorWItem.java"
         ]
       },
       "path": "~/One Piece/Fruits/Goro"
@@ -933,8 +933,8 @@
       "registry_name": "jiki_jiki_no_mi",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/jiki_jiki_no_mi.json",
-          "src/main/java/net/mcreator/opba/item/JikiJikiNoMiItem.java"
+          "src/main/java/net/mcreator/opba/item/JikiJikiNoMiItem.java",
+          "src/main/resources/assets/opba/models/item/jiki_jiki_no_mi.json"
         ]
       },
       "path": "~/One Piece/Fruits/Jiki"
@@ -1108,8 +1108,8 @@
       "registry_name": "ability_choose_metalica",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseMetalicaScreen.java",
           "src/main/java/net/mcreator/opba/network/AbilityChooseMetalicaButtonMessage.java",
+          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseMetalicaScreen.java",
           "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseMetalicaMenu.java"
         ]
       },
@@ -1267,11 +1267,11 @@
       "registry_name": "key_maker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/block/entity/KeyMakerBlockEntity.java",
-          "src/main/resources/assets/opba/models/block/key_maker.json",
           "src/main/resources/assets/opba/blockstates/key_maker.json",
-          "src/main/resources/assets/opba/models/item/key_maker.json",
-          "src/main/java/net/mcreator/opba/block/KeyMakerBlock.java"
+          "src/main/java/net/mcreator/opba/block/KeyMakerBlock.java",
+          "src/main/resources/assets/opba/models/block/key_maker.json",
+          "src/main/java/net/mcreator/opba/block/entity/KeyMakerBlockEntity.java",
+          "src/main/resources/assets/opba/models/item/key_maker.json"
         ]
       },
       "path": "~/Mics"
@@ -1378,9 +1378,9 @@
       "registry_name": "chooser",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/opba/world/inventory/ChooserMenu.java",
           "src/main/java/net/mcreator/opba/client/gui/ChooserScreen.java",
-          "src/main/java/net/mcreator/opba/network/ChooserButtonMessage.java",
-          "src/main/java/net/mcreator/opba/world/inventory/ChooserMenu.java"
+          "src/main/java/net/mcreator/opba/network/ChooserButtonMessage.java"
         ]
       },
       "path": "~/Mics"
@@ -1513,8 +1513,8 @@
       "registry_name": "micro_micro_no_mi_model_saikin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/micro_micro_no_mi_model_saikin.json",
-          "src/main/java/net/mcreator/opba/item/SaikinSaikinNoMiItem.java"
+          "src/main/java/net/mcreator/opba/item/SaikinSaikinNoMiItem.java",
+          "src/main/resources/assets/opba/models/item/micro_micro_no_mi_model_saikin.json"
         ]
       },
       "path": "~/One Piece/Fruits/MicroSaikin"
@@ -1692,8 +1692,8 @@
       "registry_name": "toxic_bacteria_w",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/entity/ToxicBacteriaWEntity.java",
           "src/main/java/net/mcreator/opba/item/ToxicBacteriaWItem.java",
+          "src/main/java/net/mcreator/opba/entity/ToxicBacteriaWEntity.java",
           "src/main/resources/assets/opba/models/item/toxic_bacteria_w.json"
         ]
       },
@@ -1757,8 +1757,8 @@
       "registry_name": "saikin_invunerability",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/particles/saikin_invunerability.json",
-          "src/main/java/net/mcreator/opba/client/particle/SaikinInvunerabilityParticle.java"
+          "src/main/java/net/mcreator/opba/client/particle/SaikinInvunerabilityParticle.java",
+          "src/main/resources/assets/opba/particles/saikin_invunerability.json"
         ]
       },
       "path": "~/One Piece/Fruits/MicroSaikin"
@@ -2053,9 +2053,9 @@
       "registry_name": "ability_choose_goro",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseGoroMenu.java",
+          "src/main/java/net/mcreator/opba/network/AbilityChooseGoroButtonMessage.java",
           "src/main/java/net/mcreator/opba/client/gui/AbilityChooseGoroScreen.java",
-          "src/main/java/net/mcreator/opba/network/AbilityChooseGoroButtonMessage.java"
+          "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseGoroMenu.java"
         ]
       },
       "path": "~/One Piece/Fruits/Goro"
@@ -2084,8 +2084,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseJikiMenu.java",
-          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseJikiScreen.java",
-          "src/main/java/net/mcreator/opba/network/AbilityChooseJikiButtonMessage.java"
+          "src/main/java/net/mcreator/opba/network/AbilityChooseJikiButtonMessage.java",
+          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseJikiScreen.java"
         ]
       },
       "path": "~/One Piece/Fruits/Jiki"
@@ -2398,8 +2398,8 @@
       "registry_name": "suke_suke_no_mi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/item/SukeSukeNoMiItem.java",
-          "src/main/resources/assets/opba/models/item/suke_suke_no_mi.json"
+          "src/main/resources/assets/opba/models/item/suke_suke_no_mi.json",
+          "src/main/java/net/mcreator/opba/item/SukeSukeNoMiItem.java"
         ]
       },
       "path": "~/One Piece/Fruits/Suke"
@@ -2433,8 +2433,8 @@
       "registry_name": "ability_choose_suke",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/network/AbilityChooseSukeButtonMessage.java",
           "src/main/java/net/mcreator/opba/client/gui/AbilityChooseSukeScreen.java",
+          "src/main/java/net/mcreator/opba/network/AbilityChooseSukeButtonMessage.java",
           "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseSukeMenu.java"
         ]
       },
@@ -2555,8 +2555,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/opba/item/StrawHatItem.java",
-          "src/main/resources/assets/opba/models/item/straw_hat_helmet.json"
+          "src/main/resources/assets/opba/models/item/straw_hat_helmet.json",
+          "src/main/java/net/mcreator/opba/item/StrawHatItem.java"
         ]
       },
       "path": "~/One Piece"
@@ -2570,9 +2570,9 @@
       "registry_name": "fraction_choose",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/opba/network/FractionChooseButtonMessage.java",
           "src/main/java/net/mcreator/opba/world/inventory/FractionChooseMenu.java",
-          "src/main/java/net/mcreator/opba/client/gui/FractionChooseScreen.java",
-          "src/main/java/net/mcreator/opba/network/FractionChooseButtonMessage.java"
+          "src/main/java/net/mcreator/opba/client/gui/FractionChooseScreen.java"
         ]
       },
       "path": "~/One Piece/Fractions"
@@ -2824,8 +2824,8 @@
       "registry_name": "wanted_poster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/item/WantedPosterItem.java",
-          "src/main/resources/assets/opba/models/item/wanted_poster.json"
+          "src/main/resources/assets/opba/models/item/wanted_poster.json",
+          "src/main/java/net/mcreator/opba/item/WantedPosterItem.java"
         ]
       },
       "path": "~/One Piece/Fractions"
@@ -2920,10 +2920,10 @@
       "registry_name": "wanted_poster_package",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/block/wanted_poster_package.json",
-          "src/main/java/net/mcreator/opba/block/WantedPosterPackageBlock.java",
           "src/main/resources/assets/opba/blockstates/wanted_poster_package.json",
-          "src/main/resources/assets/opba/models/item/wanted_poster_package.json"
+          "src/main/resources/assets/opba/models/item/wanted_poster_package.json",
+          "src/main/resources/assets/opba/models/block/wanted_poster_package.json",
+          "src/main/java/net/mcreator/opba/block/WantedPosterPackageBlock.java"
         ]
       },
       "path": "~/One Piece/Fractions"
@@ -3111,10 +3111,10 @@
       "registry_name": "raigo_w",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/entity/RaigoWEntity.java",
           "src/main/java/net/mcreator/opba/client/renderer/RaigoWRenderer.java",
+          "src/main/resources/assets/opba/models/item/raigo_w.json",
           "src/main/java/net/mcreator/opba/item/RaigoWItem.java",
-          "src/main/resources/assets/opba/models/item/raigo_w.json"
+          "src/main/java/net/mcreator/opba/entity/RaigoWEntity.java"
         ]
       },
       "path": "~/One Piece/Fruits/Goro"
@@ -3273,9 +3273,9 @@
       "registry_name": "suke_external_invis_w",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/suke_external_invis_w.json",
+          "src/main/java/net/mcreator/opba/entity/SukeExternalInvisWEntity.java",
           "src/main/java/net/mcreator/opba/item/SukeExternalInvisWItem.java",
-          "src/main/java/net/mcreator/opba/entity/SukeExternalInvisWEntity.java"
+          "src/main/resources/assets/opba/models/item/suke_external_invis_w.json"
         ]
       },
       "path": "~/One Piece/Fruits/Suke"
@@ -3792,9 +3792,9 @@
       "registry_name": "ability_choose_cyborg",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseCyborgScreen.java",
+          "src/main/java/net/mcreator/opba/network/AbilityChooseCyborgButtonMessage.java",
           "src/main/java/net/mcreator/opba/world/inventory/AbilityChooseCyborgMenu.java",
-          "src/main/java/net/mcreator/opba/network/AbilityChooseCyborgButtonMessage.java"
+          "src/main/java/net/mcreator/opba/client/gui/AbilityChooseCyborgScreen.java"
         ]
       },
       "path": "~/One Piece/Cyborg"
@@ -3885,10 +3885,10 @@
       "registry_name": "trash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/trash.json",
-          "src/main/resources/assets/opba/models/block/trash.json",
+          "src/main/resources/assets/opba/blockstates/trash.json",
           "src/main/java/net/mcreator/opba/block/TrashBlock.java",
-          "src/main/resources/assets/opba/blockstates/trash.json"
+          "src/main/resources/assets/opba/models/block/trash.json",
+          "src/main/resources/assets/opba/models/item/trash.json"
         ]
       },
       "path": "~/One Piece/Cyborg"
@@ -4105,9 +4105,9 @@
       "registry_name": "punkgibson",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/item/inventory/PunkgibsonInventoryCapability.java",
+          "src/main/resources/assets/opba/models/item/punkgibson.json",
           "src/main/java/net/mcreator/opba/item/PunkgibsonItem.java",
-          "src/main/resources/assets/opba/models/item/punkgibson.json"
+          "src/main/java/net/mcreator/opba/item/inventory/PunkgibsonInventoryCapability.java"
         ]
       },
       "path": "~/One Piece/Fruits/Jiki"
@@ -4177,8 +4177,8 @@
       "registry_name": "kiko_kiko_no_mi",
       "metadata": {
         "files": [
-          "src/main/resources/assets/opba/models/item/kiko_kiko_no_mi.json",
-          "src/main/java/net/mcreator/opba/item/KikoKikoNoMiItem.java"
+          "src/main/java/net/mcreator/opba/item/KikoKikoNoMiItem.java",
+          "src/main/resources/assets/opba/models/item/kiko_kiko_no_mi.json"
         ]
       },
       "path": "~/One Piece/Fruits/Kiko"
@@ -4293,8 +4293,8 @@
       "registry_name": "punk_gibson_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/client/gui/PunkGibsonGuiScreen.java",
-          "src/main/java/net/mcreator/opba/world/inventory/PunkGibsonGuiMenu.java"
+          "src/main/java/net/mcreator/opba/world/inventory/PunkGibsonGuiMenu.java",
+          "src/main/java/net/mcreator/opba/client/gui/PunkGibsonGuiScreen.java"
         ]
       },
       "path": "~/One Piece/Fruits/Jiki"
