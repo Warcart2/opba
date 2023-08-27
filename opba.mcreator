@@ -4470,20 +4470,6 @@
       "path": "~/JoJo/Stands"
     },
     {
-      "name": "ItWorks",
-      "type": "item",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "it_works",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/opba/models/item/it_works.json",
-          "src/main/java/net/mcreator/opba/item/ItWorksItem.java"
-        ]
-      }
-    },
-    {
       "name": "IIIIIIIIItemitemRightclickedOnBlock",
       "type": "procedure",
       "sortid": 226,
@@ -4771,15 +4757,15 @@
   ],
   "language_map": {
     "ru_ru": {
-      "gui.opba.fraction_choose_2.label_support": "support",
       "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
+      "gui.opba.fraction_choose_2.label_support": "support",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.raigo_w": "Test",
+      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",
@@ -4906,15 +4892,15 @@
       "gui.opba.fraction_choose.label_your_efforts_and_strength_will_n": "Your efforts and strength will not be"
     },
     "en_us": {
-      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "gui.opba.fraction_choose_2.label_support": "support",
+      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.raigo_w": "Test",
       "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
+      "item.opba.raigo_w": "Test",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",
@@ -4944,7 +4930,6 @@
       "gamerule.permanentShichibukai": "Permanent Shichibukai",
       "item.opba.kairoseki": "Kairoseki",
       "entity.opba.stand_test": "Stand Test",
-      "item.opba.it_works": "It Works",
       "item.opba.punkgibson": "Punk gibson",
       "key.categories.opbacombat": "OPBA Attacks",
       "block.opba.key_maker": "Key Maker",
