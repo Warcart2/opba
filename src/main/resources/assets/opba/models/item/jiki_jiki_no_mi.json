@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "opba:items/jiki_jiki_no_mi"
+    "layer0": "opba:items/fruits/jiki_jiki_no_mi"
   }
 }

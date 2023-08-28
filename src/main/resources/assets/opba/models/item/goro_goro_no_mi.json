@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "opba:items/goro_goro"
+    "layer0": "opba:items/fruits/goro_goro_no_mi"
   }
 }

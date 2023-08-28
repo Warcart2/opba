@@ -35,6 +35,9 @@
           "onClick": {
             "name": "NextGuiFruit"
           },
+          "displayCondition": {
+            "name": "HaveStand"
+          },
           "width": 51,
           "height": 20,
           "x": 177,

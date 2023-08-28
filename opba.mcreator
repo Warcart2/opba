@@ -267,12 +267,12 @@
       "type": "item",
       "sortid": 15,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "goro_goro_no_mi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/item/GoroGoroNoMiItem.java",
-          "src/main/resources/assets/opba/models/item/goro_goro_no_mi.json"
+          "src/main/resources/assets/opba/models/item/goro_goro_no_mi.json",
+          "src/main/java/net/mcreator/opba/item/GoroGoroNoMiItem.java"
         ]
       },
       "path": "~/One Piece/Fruits/Goro"
@@ -929,7 +929,7 @@
       "type": "item",
       "sortid": 43,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "jiki_jiki_no_mi",
       "metadata": {
         "files": [
@@ -1090,10 +1090,6 @@
           {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1378,9 +1374,9 @@
       "registry_name": "chooser",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/opba/world/inventory/ChooserMenu.java",
           "src/main/java/net/mcreator/opba/client/gui/ChooserScreen.java",
-          "src/main/java/net/mcreator/opba/network/ChooserButtonMessage.java"
+          "src/main/java/net/mcreator/opba/network/ChooserButtonMessage.java",
+          "src/main/java/net/mcreator/opba/world/inventory/ChooserMenu.java"
         ]
       },
       "path": "~/Mics"
@@ -1509,7 +1505,7 @@
       "type": "item",
       "sortid": 78,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "micro_micro_no_mi_model_saikin",
       "metadata": {
         "files": [
@@ -2394,7 +2390,7 @@
       "type": "item",
       "sortid": 121,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "suke_suke_no_mi",
       "metadata": {
         "files": [
@@ -4173,7 +4169,7 @@
       "type": "item",
       "sortid": 198,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "kiko_kiko_no_mi",
       "metadata": {
         "files": [
@@ -4421,7 +4417,7 @@
       "type": "procedure",
       "sortid": 222,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "random_stand",
       "metadata": {
         "return_type": "string",
@@ -4437,18 +4433,13 @@
       "type": "procedure",
       "sortid": 224,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "stands",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/opba/procedures/StandsProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/JoJo/Stands"
     },
@@ -4736,15 +4727,15 @@
   ],
   "language_map": {
     "ru_ru": {
-      "gui.opba.fraction_choose_2.label_support": "support",
       "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
+      "gui.opba.fraction_choose_2.label_support": "support",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.raigo_w": "Test",
+      "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",
@@ -4871,15 +4862,15 @@
       "gui.opba.fraction_choose.label_your_efforts_and_strength_will_n": "Your efforts and strength will not be"
     },
     "en_us": {
-      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "gui.opba.fraction_choose_2.label_support": "support",
+      "gui.opba.ability_choose_goro.button_200_milion_volt": "200 milion volt",
       "effect.opba.iron_withering": "Iron Withering",
       "effect.fatigue": "Fatigue",
       "item.opba.suke_suke_no_mi": "Suke Suke No Mi",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of": "You will get the recognition of the people",
       "gui.opba.ability_choose_metalica.button_invisibility": "Invisibility",
-      "item.opba.raigo_w": "Test",
       "item.opba.marine_soldier_spawn_egg": "Marine Soldier Spawn Egg",
+      "item.opba.raigo_w": "Test",
       "item.opba.fresh_fire_w": "Fresh Fire",
       "gui.opba.fraction_choose.label_you_will_get_the_recognition_of1": "you will get the recognition of your soul.",
       "effect.opba.fatigue": "Fatigue",

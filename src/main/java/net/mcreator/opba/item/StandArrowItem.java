@@ -26,14 +26,14 @@ public class StandArrowItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		StandArrowRightclickedProcedure.execute(world, entity, itemstack);
+		StandArrowRightclickedProcedure.execute(entity, itemstack);
 		return ar;
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		StandArrowRightclickedProcedure.execute(entity.level, entity, itemstack);
+		StandArrowRightclickedProcedure.execute(entity, itemstack);
 		return retval;
 	}
 }

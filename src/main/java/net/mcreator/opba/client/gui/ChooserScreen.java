@@ -13,6 +13,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.opba.world.inventory.ChooserMenu;
 import net.mcreator.opba.procedures.IfCyborgProcedure;
+import net.mcreator.opba.procedures.HaveStandProcedure;
 import net.mcreator.opba.procedures.HaveFruitProcedure;
 import net.mcreator.opba.network.ChooserButtonMessage;
 import net.mcreator.opba.OpbaMod;
@@ -109,11 +110,17 @@ public class ChooserScreen extends AbstractContainerScreen<ChooserMenu> {
 		guistate.put("button:button_devil_fruit", button_devil_fruit);
 		this.addRenderableWidget(button_devil_fruit);
 		button_stand = new Button(this.leftPos + 51, this.topPos + 34, 51, 20, new TranslatableComponent("gui.opba.chooser.button_stand"), e -> {
-			if (true) {
+			if (HaveStandProcedure.execute(entity)) {
 				OpbaMod.PACKET_HANDLER.sendToServer(new ChooserButtonMessage(1, x, y, z));
 				ChooserButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		});
+		}) {
+			@Override
+			public void render(PoseStack ms, int gx, int gy, float ticks) {
+				if (HaveStandProcedure.execute(entity))
+					super.render(ms, gx, gy, ticks);
+			}
+		};
 		guistate.put("button:button_stand", button_stand);
 		this.addRenderableWidget(button_stand);
 		button_cyborg = new Button(this.leftPos + 51, this.topPos + 61, 56, 20, new TranslatableComponent("gui.opba.chooser.button_cyborg"), e -> {
